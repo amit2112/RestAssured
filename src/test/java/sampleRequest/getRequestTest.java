@@ -10,6 +10,7 @@ import io.restassured.response.Response;
 public class getRequestTest {
 	public String token="";
 	
+	
 	@Test(priority=1)
 	public void getToken(){
 		String restAPIUrl = "/ECM/api/login";
