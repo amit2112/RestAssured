@@ -17,6 +17,7 @@ package sampleRequest;
          import com.relevantcodes.extentreports.LogStatus;
          //You have a file which connects to testng
  
+         
          //Testng to listen to this extent reports.
         public class ExtentReporterNG implements IReporter {
              private ExtentReports extent;
