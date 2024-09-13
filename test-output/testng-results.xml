@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5379" started-at="2021-10-01T16:20:55Z" finished-at="2021-10-01T16:21:01Z">
+  <suite started-at="2024-09-13T21:36:54 IST" name="Suite" finished-at="2024-09-13T21:37:05 IST" duration-ms="11105">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5379" started-at="2021-10-01T16:20:55Z" finished-at="2021-10-01T16:21:01Z">
-      <class name="sampleRequest.getRequestTest">
-        <test-method status="PASS" signature="getToken()[pri:1, instance:sampleRequest.getRequestTest@f6c48ac]" name="getToken" duration-ms="3096" started-at="2021-10-01T16:20:55Z" finished-at="2021-10-01T16:20:58Z">
+    <test started-at="2024-09-13T21:36:54 IST" name="Test" finished-at="2024-09-13T21:37:05 IST" duration-ms="11105">
+      <class name="sampleRequest.GORESTAPI">
+        <test-method is-config="true" signature="setup()[pri:0, instance:sampleRequest.GORESTAPI@7e5afaa6]" started-at="2024-09-13T21:36:54 IST" name="setup" finished-at="2024-09-13T21:36:54 IST" duration-ms="764" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getToken -->
-        <test-method status="PASS" signature="createUser()[pri:2, instance:sampleRequest.getRequestTest@f6c48ac]" name="createUser" duration-ms="1081" started-at="2021-10-01T16:20:58Z" finished-at="2021-10-01T16:21:00Z">
+        </test-method> <!-- setup -->
+        <test-method signature="getAllUsers()[pri:1, instance:sampleRequest.GORESTAPI@7e5afaa6]" started-at="2024-09-13T21:36:54 IST" name="getAllUsers" finished-at="2024-09-13T21:36:58 IST" duration-ms="3816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method signature="createUser()[pri:2, instance:sampleRequest.GORESTAPI@7e5afaa6]" started-at="2024-09-13T21:36:58 IST" name="createUser" finished-at="2024-09-13T21:37:01 IST" duration-ms="2497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="getUser()[pri:3, instance:sampleRequest.getRequestTest@f6c48ac]" name="getUser" duration-ms="434" started-at="2021-10-01T16:21:00Z" finished-at="2021-10-01T16:21:00Z">
+        <test-method signature="getUser()[pri:3, instance:sampleRequest.GORESTAPI@7e5afaa6]" started-at="2024-09-13T21:37:01 IST" name="getUser" finished-at="2024-09-13T21:37:02 IST" duration-ms="1093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUser -->
-        <test-method status="PASS" signature="updatUser()[pri:3, instance:sampleRequest.getRequestTest@f6c48ac]" name="updatUser" duration-ms="694" started-at="2021-10-01T16:21:00Z" finished-at="2021-10-01T16:21:01Z">
+        <test-method signature="updateUser()[pri:4, instance:sampleRequest.GORESTAPI@7e5afaa6]" started-at="2024-09-13T21:37:02 IST" name="updateUser" finished-at="2024-09-13T21:37:04 IST" duration-ms="1736" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updatUser -->
-      </class> <!-- sampleRequest.getRequestTest -->
+        </test-method> <!-- updateUser -->
+        <test-method signature="deleteUser()[pri:5, instance:sampleRequest.GORESTAPI@7e5afaa6]" started-at="2024-09-13T21:37:04 IST" name="deleteUser" finished-at="2024-09-13T21:37:05 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- sampleRequest.GORESTAPI -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
